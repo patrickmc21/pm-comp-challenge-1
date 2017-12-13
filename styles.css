@@ -1,0 +1,243 @@
+section {
+  position: absolute;
+  border: 5px solid #BDBDBD;
+  height: 100%;
+  width: 100%;
+  color: #FFFFFF;
+  font-family: 'Kalam', cursive;
+}
+
+article {
+  position: absolute;
+  height: 33.33%;
+  width: 20%;
+  text-shadow: 2px 2px 8px #9E9E9E;
+}
+
+.title {
+  top: 0;
+  left: 0;
+  background-color: #455A64;
+  width: 40%;
+}
+
+.header {
+  position: absolute;
+  top: 11%;
+  left: 5%;
+  font-size: 2.5em;
+}
+
+.attention {
+  position: absolute;
+  top: 24%;
+  left: 27%;
+  font-size: 5em;
+}
+
+.title-tagline {
+  position: absolute;
+  top: 53%;
+  left: 10%;
+  font-size: 1em;
+}
+
+.title button {
+  position: absolute;
+  bottom: 21%;
+  padding: 2%;
+  height: 15%;
+  width: 25%;
+  font-family: 'Kalam', cursive;
+  font-size: 1em;
+  color: #FFFFFF;
+  background-color: transparent;
+}
+.about {
+  left: 4%;
+}
+
+.title img{
+  position: absolute;
+  width: 19%;
+  height: 56%;
+}
+
+.about img {
+  top: 10px;
+  left: 10px;
+}
+
+.contact {
+  left: 35%;
+}
+
+.contact img {
+  top: 9px;
+  left: 8px;
+}
+
+.icon {
+  position: absolute;
+  top: 25%;
+  left: 27%;
+  width: 49%;
+}
+
+.body-text {
+  position: absolute;
+  top: 75%;
+  left: 36%;
+  font-size: 2em;
+}
+
+.peaks {
+  top: 0;
+  left: 40%;
+  background-color: #9E9E9E;
+}
+
+.routes {
+  top: 33.33%;
+  left: 0;
+  background-color: #607D8B;
+}
+
+.routes h2 {
+  left: 32%
+}
+
+.equipment {
+  top: 33.33%;
+  left: 20%;
+  background-color: #212121;
+}
+
+.equipment h2 {
+  left: 23%;
+}
+
+.weather {
+  top: 33.33%;
+  left: 40%;
+  background-color: #CFD8DC;
+}
+
+.weather img {
+  top: 13%;
+  left: 18%;
+  width: 73%;
+}
+
+.weather h2 {
+  left: 29%;
+}
+
+
+.lodging {
+  bottom: 0;
+  left: 0;
+  background-color: #9E9E9E;
+}
+
+.lodging h2 {
+  left: 28%;
+}
+
+.lodging img {
+  top: 23%;
+  left: 18%;
+  width: 62%;
+}
+
+.guides {
+  bottom: 0;
+  left: 20%;
+  background-color: #455A64;
+}
+
+.guides img {
+  top: 23%;
+  left: 18%;
+  width: 62%;
+}
+
+.guides h2 {
+  left: 32%;
+}
+
+.emergency {
+  bottom: 0;
+  left: 40%;
+  background-color: #757575;
+}
+
+.emergency h2 {
+  left: 9%;
+}
+
+.slideshow {
+  right: 0;
+  height: 100%;
+  width: 40%;  
+}
+ .background {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+.cycle {
+  position: absolute;
+  top: 50%;
+  width: 10%;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  background-color: #9E9E9E;
+  z-index: 1;
+  opacity: .5;
+}
+
+.right {
+  right: 5%;
+}
+
+.left {
+  left: 5%;
+}
+
+.dot {
+  position: absolute;
+  top: 2%;
+  border-radius: 50%;
+  height: 3%;
+  width: 5%;
+  background-color: #FFFFFF;
+  z-index: 3;
+  opacity: .6;
+}
+
+.one {
+  right: 20%;
+  background-color: #9E9E9E;
+}
+
+.two{
+  right: 13%;
+}
+
+.three {
+  right: 6%;
+}
+
+.haze {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #9E9E9E;
+  opacity: 0.2;
+}
+
+
+
