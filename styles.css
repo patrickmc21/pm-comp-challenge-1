@@ -1,72 +1,72 @@
 section {
-  position: absolute;
   border: 5px solid #BDBDBD;
-  height: 100%;
-  width: 100%;
   color: #FFFFFF;
   font-family: 'Kalam', cursive;
+  height: 100%;
+  position: absolute;
+  width: 100%;
 }
 
 article {
-  position: absolute;
   height: 33.33%;
+  position: absolute;
   width: 20%;
 }
 
 .title {
-  top: 0;
-  left: 0;
   background-color: #455A64;
+  left: 0;
+  top: 0;
   width: 40%;
 }
 
 .header {
-  position: absolute;
-  top: 11%;
-  left: 5%;
   font-size: 2.5em;
+  left: 5%;
+  position: absolute;
   text-shadow: 1px 3px #9E9E9E;
+  top: 11%;
 }
 
 .attention {
-  position: absolute;
-  top: 24%;
-  left: 27%;
   font-size: 5em;
+  left: 27%;
+  position: absolute;
   text-shadow: 1px 3px #9E9E9E;
+  top: 24%;
 }
 
 .title-tagline {
+  font-size: 1em;
+  left: 10%;
   position: absolute;
   top: 53%;
-  left: 10%;
-  font-size: 1em;
 }
 
 .title button {
-  position: absolute;
+  background-color: transparent;
   bottom: 21%;
-  padding: 2%;
-  height: 15%;
-  width: 25%;
+  color: #FFFFFF;
   font-family: 'Kalam', cursive;
   font-size: 1em;
-  color: #FFFFFF;
-  background-color: transparent;
+  height: 15%;
+  padding: 2%;
+  position: absolute;
+  width: 25%;
 }
 .about {
   left: 4%;
 }
 
 .title img{
+  height: 56%;
   position: absolute;
   width: 19%;
-  height: 56%;
 }
 
 .about img {
-  top: 10px;
   left: 10px;
+  top: 10px;
 }
 
 .contact {
@@ -74,22 +74,21 @@ article {
 }
 
 .contact img {
-  top: 9px;
   left: 8px;
+  top: 9px;
 }
 
 .container {
+  left: 12.5%;
   position: absolute;
   top: 12.5%;
-  left: 12.5%;
-  height: 75%;
   width: 75%;  
 }
 
 .icon {
-  margin: 20% auto 1% auto;
   display: block;
   height: 65px;
+  margin: 20% auto 1% auto;
   width: 55px;
 }
 
@@ -99,69 +98,69 @@ article {
 }
 
 .peaks {
-  top: 0;
-  left: 40%;
   background-color: #9E9E9E;
+  left: 40%;
+  top: 0;
 }
 
 .routes {
-  top: 33.33%;
-  left: 0;
   background-color: #607D8B;
+  left: 0;
+  top: 33.33%;
 }
 
 .equipment {
-  top: 33.33%;
-  left: 20%;
   background-color: #212121;
+  left: 20%;
+  top: 33.33%;
 }
 
 .weather {
-  top: 33.33%;
-  left: 40%;
   background-color: #CFD8DC;
+  left: 40%;
+  top: 33.33%;
 }
 
 .lodging {
+  background-color: #9E9E9E;
   bottom: 0;
   left: 0;
-  background-color: #9E9E9E;
 }
 
 .guides {
+  background-color: #455A64;
   bottom: 0;
   left: 20%;
-  background-color: #455A64;
 }
 
 .emergency {
+  background-color: #757575;
   bottom: 0;
   left: 40%;
-  background-color: #757575;
 }
 
 .slideshow {
-  right: 0;
   height: 100%;
+  right: 0;
   width: 40%;  
 }
  .background {
+  height: 100%;
   position: absolute;
   right: 0;
-  height: 100%;
   width: 100%;
   z-index: -1;
 }
 
 .cycle {
+  background-color: #9E9E9E;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+  opacity: .5;
   position: absolute;
   top: 50%;
   width: 10%;
-  border: 2px solid #FFFFFF;
-  border-radius: 50%;
-  background-color: #9E9E9E;
   z-index: 1;
-  opacity: .5;
 }
 
 .right {
@@ -173,19 +172,19 @@ article {
 }
 
 .dot {
-  position: absolute;
-  top: 2%;
+  background-color: #FFFFFF;
   border-radius: 50%;
   height: 2%;
-  width: 3%;
-  background-color: #FFFFFF;
-  z-index: 0;
   opacity: .6;
+  position: absolute;
+  top: 2%;
+  width: 3%;
+  z-index: 0;
 }
 
 .one {
-  right: 16%;
   background-color: #9E9E9E;
+  right: 16%;
 }
 
 .two{
@@ -233,8 +232,8 @@ article {
 
 @media screen and (max-width: 800px) {
   article {
-    width: 25%;
     height: 25%;
+    width: 25%;
   }
 
   .title {
@@ -242,15 +241,19 @@ article {
     width: 50%;
   }
 
+  .title img {
+    top: 22px;
+  }
+
   .attention {
-    top: 19%;
-    left: 30%;
     font-size: 6em; 
+    left: 30%;
+    top: 19%;
   }
 
   .title-tagline {
-    top: 40%;
     font-size: 1.5em;
+    top: 40%;
   }
 
   .title button {
@@ -264,26 +267,25 @@ article {
   }
 
   .peaks {
-    width: 50%;
-    top: 50%;
-    left: 0;
     font-size: 2em;
+    left: 0;
+    top: 50%;
+    width: 50%;
   }
 
   .peaks img {
-    margin-top: 4%;
     height: 88px;
+    margin-top: 4%;
     width: 100px;
   }
 
   .routes{
     top: 75%;
-    left: 0:;
   }
 
   .equipment {
-    top: 75%;
     left: 25%;
+    top: 75%;
   }
 
   .weather {
@@ -346,8 +348,8 @@ article {
   }
 
   .peaks img {
-    margin-top: 4%;
     height: 85px;
+    margin-top: 4%;
     width: 75px;
   }
 }
@@ -383,8 +385,8 @@ article {
 
   .title {
     height: 22%;
-    width: 100%;
     top: 44.75%;
+    width: 100%;
   }
 
   .header {
@@ -409,6 +411,7 @@ article {
   .title button img {
     height: 48%;
     left: 19%;
+    top: 7px;
   }
 
   .icon {
@@ -424,13 +427,13 @@ article {
   }
 
   .routes {
-    top: 66.66%;
     left: 50%;
+    top: 66.66%;
   }
 
   .equipment {
-    top: 66.66%;
     left: 75%;
+    top: 66.66%;
   }
 
   .weather {
@@ -458,6 +461,6 @@ article {
 
   .dot {
     top: 8%;
-    width: 4%;
+    width: 3%;
   }
 }
